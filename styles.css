@@ -1,12 +1,28 @@
+*{
+    color:#ccc;
+    list-style: none;
+    
+}
 body{
     min-height: 100vh;
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: #000000;
 }
 section{
     width:480px;
     height: 1020px;
     border:1px solid #ccc;
 }
-.menu
+.menu{
+    align-items: center;
+    padding: 10px;
+    margin :0px;
+
+}
+#menuitems{
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    
+}
